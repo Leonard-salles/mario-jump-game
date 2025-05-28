@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
 
-    <title>Mario Jump - Game</title>
-</head>
-<body>
-    <div class="game-board">
-        <img src="/assets/clouds.png" alt="" class="clouds">
-        <img src="/assets/mario.gif" class="mario" id="mario">
-        <img src="/assets/pipe.png" class="pipe">
-    </div>
-    <script src="/js/script.js"></script>
-</body>
+        <title>Mario Jump - Game</title>
+    </head>
+    <body>
+        <div class="game-board">
+            <img src="/assets/clouds.png" alt class="clouds">
+            <img src="/assets/mario.gif" class="mario" id="mario">
+            <img src="/assets/pipe.png" class="pipe">
+        </div>
+        <button class="btn-running" onclick="restartGame()">Começar de
+            novo</button>
+        <script src="/js/script.js"></script>
+    </body>
 </html>
